@@ -1,7 +1,6 @@
 {
-  "name": "Snow",
-  "version": "0.1.0",
-  "private": true,
+  "name": "snow",
+  "version": "0.0.1",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
@@ -49,6 +48,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
+  "license": "MIT",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,mjs}"
