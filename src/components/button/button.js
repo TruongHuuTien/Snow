@@ -4,7 +4,9 @@ import './button.scss';
 class Button extends Component {
   render() {
     return (
-      <button></button>
+      <button>
+        Snow Button
+      </button>
     );
   }
 }
