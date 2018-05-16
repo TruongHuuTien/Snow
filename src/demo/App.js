@@ -7,7 +7,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button text="Snow Button" icon="user" onClick={() => console.log('Click on Snow Button')} />
+        <h1>Buttons</h1>
+        <Button text="Text Only" onClick={() => console.log('Click on Snow Button')} />
+        <Button icon="user"  />
+        <Button text="Icon + Text" icon="user" />
       </div>
     );
   }

@@ -10,7 +10,6 @@ class Icon extends Component {
   }
 
   render() {
-    console.log(this.state);
     let classNames = ['fa', 'icon'];
     classNames.push('fa-' + this.state.name);
     return (

@@ -19,7 +19,14 @@ button {
   }
 
   /* Icon */
-  .icon {
-    margin-right: 1rem;
+  &.btn-icon {
+    width: 4rem;
+    padding: 1rem 1rem;
+    justify-content: center;
+  }
+  &:not(.btn-icon) {
+    .icon {
+      margin-right: 1rem;
+    }
   }
 }
